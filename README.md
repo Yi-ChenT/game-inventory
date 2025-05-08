@@ -6,9 +6,9 @@ The program lets you load or save data in CSV form, add or remove titles, adjust
 Its layered design—`View` ↔ `Operations` ↔ `DAL`—makes the code easy to read, extend, and test.
 
 
-## Feature Highlights
+## Features
 
-| Menu # | Action | What Happens Behind the Scenes |
+| Menu  | Action | Process |
 |--------|--------|--------------------------------|
 | **1** | **Load data** | Reads a CSV file into memory; warns before overwriting current data. |
 | **2** | **Save data** | Writes the current repository to a CSV file; prompts before overwrite. |
